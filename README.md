@@ -128,4 +128,4 @@ This project focuses on improving:
 
 ## <img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/2527625b-ff62-4d2b-8645-4a0847341136" /> Project Vision
 
-The final result will be a fully interactive **Windows XP-style desktop portfolio**, where users can open windows, navigate projects, and explore content just like using the original operating system.
+The final result was an interactive **Windows XP-style desktop portfolio**, where users can open windows, navigate projects, and explore content just like using the original operating system, and mainly use the Windows agents that brings nostalgia.
