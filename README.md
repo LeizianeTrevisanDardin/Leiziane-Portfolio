@@ -6,8 +6,8 @@ This is a nostalgia idea for my 2000's memories on what was having the dialed in
 
 <h2 align="center">Application Demo</h2>
 
-https://github.com/LeizianeTrevisanDardin/Leiziane-Portfolio/raw/main/assets/demo/Leiziane%20Portfolio%20video.mp4
-<hr>
+https://github.com/LeizianeTrevisanDardin/Leiziane-Portfolio/raw/main/assets/demo/demo.mp4
+</hr>
 
 ## <img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/b957cf5a-fa2c-418a-be56-eefa17b70591" /> Windows XP UI Design Inspiration
 
