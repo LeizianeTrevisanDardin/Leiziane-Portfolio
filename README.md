@@ -6,7 +6,7 @@ This is a nostalgia idea for my 2000's memories on what was having the dialed in
 <h2 align="center"> Application Demo</h2>
  
 
-https://github.com/user-attachments/assets/
+https://github.com/user-attachments/assets/demo/https://github.com/LeizianeTrevisanDardin/Leiziane-Portfolio/blob/main/assets/demo/Leiziane%20Portfolio%20video.mp4
 
 
 <hr>
