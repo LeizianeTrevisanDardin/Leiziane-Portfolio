@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Windows 2000 by Lizzy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="desktop" id="desktop">
+
+    <!-- ICONS -->
+    <div class="icon" data-open="aboutWin" style="left:18px; top:18px;">
+      <div class="icon-img">🖥️</div>
+      <div class="icon-label">My Computer</div>
+    </div>
+
+    <div class="icon" data-open="projectsWin" style="left:18px; top:96px;">
+      <div class="icon-img">📁</div>
+      <div class="icon-label">Projects</div>
+    </div>
+
+    <div class="icon" data-open="contactWin" style="left:18px; top:174px;">
+      <div class="icon-img">✉️</div>
+      <div class="icon-label">Contact</div>
+    </div>
+
+    <div class="icon" data-open="readmeWin" style="left:18px; top:252px;">
+      <div class="icon-img">📝</div>
+      <div class="icon-label">README</div>
+    </div>
+
+    <div class="icon" data-open="agentsWin" style="left:18px; top:330px;">
+      <div class="icon-img">📎</div>
+      <div class="icon-label">Agents</div>
+    </div>
+
+    <!-- ABOUT WINDOW -->
+    <section
+      class="window win"
+      id="aboutWin"
+      data-title="My Computer"
+      style="left:140px; top:40px; width:520px;"
+    >
+      <header class="titlebar drag-handle">
+        <div class="title-left">
+          <span class="title-icon">🖥️</span>
+          <span class="title-text">My Computer</span>
+        </div>
+
+        <div class="title-actions">
+          <button class="wbtn" data-action="min">_</button>
+          <button class="wbtn" data-action="close">✕</button>
+        </div>
+      </header>
+
+      <div class="window-body">
+        <div class="sidebar">
+          <div class="sidebar-title">System Tasks</div>
+
+          <button class="linkbtn" data-open="projectsWin">View Projects</button>
+          <button class="linkbtn" data-open="contactWin">Contact Me</button>
+
+          <a class="linkbtn" href="https://github.com" target="_blank">
+            Open GitHub
+          </a>
+        </div>
+
+        <div class="content">
+          <h1>Windows 2000 Portfolio</h1>
+
+          <p>Oh Hi! I am <strong>Leiziane but you can call me Lizzy</strong> 👋</p>
+
+          <p>
+            This is a mini desktop inspired by Windows 2000.
+             You can open windows, drag and navigate through projects.
+          </p>
+
+          <div class="groupbox">
+            <div class="groupbox-title">System Info</div>
+
+            <ul class="list">
+              <li><strong>User:</strong> Lizzy</li>
+              <li><strong>OS:</strong> Windows 2000 (Web Edition)</li>
+              <li><strong>Status:</strong> Online</li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <button class="btn" data-open="projectsWin">Open Projects</button>
+            <button class="btn" data-open="contactWin">Open Contact</button>
+          </div>
+        </div>
+      </div>
+
+      <footer class="statusbar">
+        <span>Ready</span>
+        <span class="status-right">C:\</span>
+      </footer>
+    </section>
+
+    <!-- PROJECTS WINDOW -->
+    <section
+      class="window win hidden"
+      id="projectsWin"
+      data-title="Projects"
+      style="left:220px; top:90px; width:560px;"
+    >
+      <header class="titlebar drag-handle">
+        <div class="title-left">
+          <span class="title-icon">📁</span>
+          <span class="title-text">Projects</span>
+        </div>
+
+        <div class="title-actions">
+          <button class="wbtn" data-action="min">_</button>
+          <button class="wbtn" data-action="close">✕</button>
+        </div>
+      </header>
+
+      <div class="window-body no-sidebar">
+        <div class="content">
+          <h2>Projects</h2>
+
+          <div class="cards">
+            <article class="card win">
+              <div class="card-head">📌 Windows 2000 Portfolio</div>
+
+              <div class="card-body">
+                <p><strong>Stack:</strong> React.js, Node.js, HTML, CSS, JS</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <footer class="statusbar">
+        <span>Items</span>
+        <span class="status-right">D:\Projects</span>
+      </footer>
+    </section>
+
+    <!-- CONTACT WINDOW -->
+    <section
+      class="window win hidden"
+      id="contactWin"
+      data-title="Contact"
+      style="left:170px; top:140px; width:520px;"
+    >
+      <header class="titlebar drag-handle">
+        <div class="title-left">✉️ Contact</div>
+
+        <div class="title-actions">
+          <button class="wbtn" data-action="min">_</button>
+          <button class="wbtn" data-action="close">✕</button>
+        </div>
+      </header>
+
+      <div class="window-body no-sidebar">
+        <div class="content">
+          <div class="groupbox">
+            <div class="groupbox-title">Links</div>
+
+            <div class="list">
+              <div>📧 leiziane.trevisan@gmail.com</div>
+              <div>
+               <a class="linkbtn" href="https://www.notion.so/leizianetrevisan/Resume-5338d35dd11642869c388439f7f4fa5f" target="_blank">
+            My Resume
+          </a>
+          </div>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- README WINDOW -->
+    <section
+      class="window win hidden"
+      id="readmeWin"
+      data-title="README"
+      style="left:260px; top:60px; width:540px;"
+    >
+      <header class="titlebar drag-handle">
+        README
+
+        <div class="title-actions">
+          <button class="wbtn" data-action="min">_</button>
+          <button class="wbtn" data-action="close">✕</button>
+        </div>
+      </header>
+
+      <div class="window-body">
+        <pre>
+Windows 2000 Portfolio
+Interactive Desktop
+Clippy Agents Supported
+        </pre>
+      </div>
+    </section>
+
+    <!-- AGENTS WINDOW -->
+    <section
+      class="window win hidden"
+      id="agentsWin"
+      data-title="Agents"
+      style="left:320px; top:140px; width:320px;"
+    >
+      <header class="titlebar drag-handle">
+        📎 Agents
+
+        <div class="title-actions">
+          <button class="wbtn" data-action="min">_</button>
+          <button class="wbtn" data-action="close">✕</button>
+        </div>
+      </header>
+
+      <div class="window-body">
+        <div class="content">
+          <h3>Select Assistant</h3>
+
+          <button class="btn agent-btn" data-agent="Clippy">📎 Clippy</button>
+          <button class="btn agent-btn" data-agent="Merlin">🧙 Merlin</button>
+          <button class="btn agent-btn" data-agent="Rover">🐶 Rover</button>
+          <button class="btn agent-btn" data-agent="Peedy">🦜 Peedy</button>
+          <button class="btn agent-btn" data-agent="Genie">🧞 Genie</button>
+          <button class="btn agent-btn" data-agent="Bonzi">🦍 Bonzi</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- TASKBAR -->
+  <div class="taskbar win">
+    <button class="start-btn win" id="startBtn">🪟 Start</button>
+
+    <div class="taskbar-apps" id="taskbarApps"></div>
+
+    <div class="tray">
+      <span id="clock"></span>
+    </div>
+
+    <!-- START MENU -->
+    <div class="start-menu win hidden" id="startMenu">
+      <button class="start-item" data-open="aboutWin">🖥️ My Computer</button>
+      <button class="start-item" data-open="projectsWin">📁 Projects</button>
+      <button class="start-item" data-open="contactWin">✉️ Contact</button>
+      <button class="start-item" data-open="readmeWin">📝 README</button>
+      <button class="start-item" data-open="agentsWin">📎 Agents</button>
+    </div>
+  </div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
