@@ -2,7 +2,7 @@
 
 
 # Windows-Xp-Retro-Website
-This is a nostalgia idea for my 2000's memories on what was having the dialed internet and tons of cool stuuf on my PC screen.
+This is a nostalgia idea for my 2000's memories on what was having the dialed internet and tons of cool stuff on my PC screen.
 
 
 <hr>
